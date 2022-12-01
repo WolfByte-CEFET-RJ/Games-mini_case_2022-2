@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 292}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 93
+  controlID: 24
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 92
+  controlID: 23
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,7 +275,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 26
+  controlID: 87
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -300,7 +300,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 27
+  controlID: 88
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -423,22 +423,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Repositorios GitHub\Games-mini_case_2022-2\Games-Mini_Case
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: cc730000
-    m_LastClickedID: 29644
-    m_ExpandedIDs: 00000000ca73000000ca9a3b
+    m_SelectedIDs: 10550000
+    m_LastClickedID: 21776
+    m_ExpandedIDs: 000000001055000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -466,7 +466,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000010550000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -588,9 +588,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b4740000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: bcf9ffff3afbffff
+      m_ExpandedIDs: 48fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -652,7 +652,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -0.05224935, y: 0.119114906, z: -5.9406357}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -705,7 +705,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 10
     speed: 2
-    m_Value: 6.0892034
+    m_Value: 10
   m_Ortho:
     m_Target: 1
     speed: 2
