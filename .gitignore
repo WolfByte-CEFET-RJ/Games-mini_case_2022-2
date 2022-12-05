@@ -7,6 +7,7 @@
 /[Bb]uilds/
 /[Ll]ibrary/
 [Ll]ogs/
+/[Mm]emoryCaptures/
 sysinfo.txt
 *.stackdump
 /Assets/AssetStoreTools*
