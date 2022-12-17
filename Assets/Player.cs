@@ -13,7 +13,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         Rigidbody = GetComponent<Rigidbody2D>();
-        jumpSpeed = 900f;
+        jumpSpeed = 450f;
         onAir = false;
     }
 
