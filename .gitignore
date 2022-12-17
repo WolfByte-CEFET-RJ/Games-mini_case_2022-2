@@ -4,10 +4,10 @@
 [Tt]emp/
 [Oo]bj/
 [Bb]uild
-[Bb]uilds/
-[Ll]ibrary/
+/[Bb]uilds/
+/[Ll]ibrary/
 [Ll]ogs/
-[Mm]emoryCaptures/
+/[Mm]emoryCaptures/
 sysinfo.txt
 *.stackdump
 /Assets/AssetStoreTools*
