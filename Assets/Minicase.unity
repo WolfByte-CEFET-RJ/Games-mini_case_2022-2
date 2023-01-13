@@ -554,7 +554,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.8279114, y: 1.2185974}
+  m_AnchoredPosition: {x: 1.8278809, y: 1.2185974}
   m_SizeDelta: {x: -64.5867, y: -45.0889}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1151044434
@@ -828,6 +828,9 @@ MonoBehaviour:
   jumpSpeed: 0
   onAir: 0
   gameOver: {fileID: 1151044433}
+  pontuacao: 0
+  gameOn: 0
+  pointsPerSeconds: 0
 --- !u!50 &1460499089
 Rigidbody2D:
   serializedVersion: 4
@@ -925,7 +928,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460499087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.42, y: -1.87, z: 0}
+  m_LocalPosition: {x: -7.99, y: -2.24, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
