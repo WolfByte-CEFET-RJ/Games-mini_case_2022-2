@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/InifniteRun.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: ee2f91edb7607344c923808c3a151f4e
+  - enabled: 1
+    path: Assets/Minicase.unity
+    guid: c7e776843bf22c646a4deaf6a99abc12
   m_configObjects: {}
