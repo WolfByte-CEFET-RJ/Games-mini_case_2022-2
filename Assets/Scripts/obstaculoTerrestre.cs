@@ -24,11 +24,7 @@ public class obstaculoTerrestre : MonoBehaviour
             pontoColetado = false;
             jogador.pontuacao += 50;
          }
-         if(transform.position.x <= jogador.transform.position.x - 5 )
-         {
-            Destroy(this.gameObject);
-            
-         }
+         
     }
     
 

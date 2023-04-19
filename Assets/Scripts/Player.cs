@@ -23,7 +23,7 @@ public class Player : MonoBehaviour
         vidas = maxVidas;
         pointsPerSeconds = 13;
         Rigidbody = GetComponent<Rigidbody2D>();
-        jumpSpeed = 900f;
+        jumpSpeed = 1000f;
         onAir = false;
     }
 
@@ -80,6 +80,7 @@ public class Player : MonoBehaviour
         Time.timeScale = 0;
         gameOn = false;  
     }
+    
     void RetryGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

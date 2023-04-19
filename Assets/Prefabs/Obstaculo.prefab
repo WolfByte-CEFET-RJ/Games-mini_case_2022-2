@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2521893182978299734}
   - component: {fileID: 2521893182978299735}
   - component: {fileID: 2521893182978299731}
+  - component: {fileID: 3893664137644156925}
   m_Layer: 0
   m_Name: Obstaculo
   m_TagString: obstaculo
@@ -146,3 +147,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+--- !u!114 &3893664137644156925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2521893182978299732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03edf1b4bc4440544907e89ed12f69f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

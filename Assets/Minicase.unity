@@ -831,6 +831,7 @@ MonoBehaviour:
   pontuacao: 0
   gameOn: 0
   pointsPerSeconds: 0
+  vidas: 0
 --- !u!50 &1460499089
 Rigidbody2D:
   serializedVersion: 4
@@ -846,7 +847,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -965,6 +966,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaculo: {fileID: 2521893182978299732, guid: e3a41156a4cfd71468ed0dd07eb3fdd2, type: 3}
+  obstaculoB: {fileID: 3483475104577583486, guid: 2659080b9047f7c418f8d801a1f4e5b5, type: 3}
 --- !u!212 &2085292444
 SpriteRenderer:
   m_ObjectHideFlags: 0
