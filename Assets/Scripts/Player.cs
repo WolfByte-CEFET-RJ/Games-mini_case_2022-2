@@ -81,13 +81,19 @@ public class Player : MonoBehaviour
         gameOn = false;  
     }
     
-    void RetryGame ()
+    public void RetryGame ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
         vidas = maxVidas;
         pontuacao = 0;
         gameOn = true;
+    }
+
+    public void MenuGame()
+    {
+        SceneManager.LoadScene("Menu");
+        
     }
 
 }
