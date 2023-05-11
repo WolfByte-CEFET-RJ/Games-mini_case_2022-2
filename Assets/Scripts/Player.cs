@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -9,10 +10,15 @@ public class Player : MonoBehaviour
     [SerializeField] private bool onAir;
     [SerializeField] private Transform gameOver;
     [SerializeField] public float pontuacao;
+    [SerializeField] public Text TextoPontuacao;
     [SerializeField] private bool gameOn;
     [SerializeField] private float pointsPerSeconds;
     [SerializeField] private int vidas;
-    private int maxVidas = 3;   
+    private int maxVidas = 3; 
+
+    public Image[] coracao;
+    public Sprite cheio;
+    public Sprite vazio;  
 
     Rigidbody2D Rigidbody;
     
@@ -21,7 +27,7 @@ public class Player : MonoBehaviour
     {   
         gameOn = true;
         vidas = maxVidas;
-        pointsPerSeconds = 13;
+        pointsPerSeconds = 11;
         Rigidbody = GetComponent<Rigidbody2D>();
         jumpSpeed = 1000f;
         onAir = false;
@@ -33,6 +39,7 @@ public class Player : MonoBehaviour
         if(gameOn)
         {
             pontuacao += pointsPerSeconds * Time.deltaTime;
+            TextoPontuacao.text = "Pontos: " + (int)pontuacao;
         }
 
         if(vidas <= 0)
@@ -40,6 +47,18 @@ public class Player : MonoBehaviour
             fimDeJogo();
         }
         
+        for(int i = 0; i < coracao.Length; i++)
+        {
+            if(i < vidas)
+            {
+                //coracao[i].Sprite = cheio; add quando tiver os sprites e tirar o debug
+                Debug.Log("cheio");
+            }else
+            {
+                //coracao[i].Sprite = vazio; add quando tiver os sprites e tirar o debug
+                Debug.Log("vazio");
+            }
+        }
     }
 
     void FixedUpdate()
